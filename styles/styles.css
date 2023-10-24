@@ -16,9 +16,19 @@
   width: 100%;
   margin: 0 24px;
   padding: 14px 14px 40px 14px;
-  background-color: hsl(0, 0%, 100%);
   border-radius: 18px;
   text-align: center;
+  background-color: hsl(0, 0%, 100%);
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .card {
+    margin: 0 28%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card {
+    margin: 0 35%;
+  }
 }
 .card__qr-code {
   width: 100%;

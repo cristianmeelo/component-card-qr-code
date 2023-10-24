@@ -1,6 +1,5 @@
 @import "colors";
 
-
 .background {
   display: flex;
   align-items: center;
@@ -18,10 +17,17 @@
   width: 100%;
   margin: 0 24px;
   padding: 14px 14px 40px 14px;
-  background-color: $white;
   border-radius: 18px;
-
   text-align: center;
+  background-color: $white;
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    margin: 0 28%;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    margin: 0 35%;
+  }
 
   &__qr-code {
     width: 100%;
@@ -33,7 +39,6 @@
     font-weight: 700;
     font-size: 24px;
     text-align: center;
-
   }
 
   &__description {
