@@ -29,6 +29,10 @@
     margin: 0 35%;
   }
 
+    @media (min-width: 1024px)  {
+    margin: 0 39%;
+  }
+
   &__qr-code {
     width: 100%;
     border-radius: 14px;
