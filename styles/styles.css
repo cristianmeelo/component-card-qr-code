@@ -44,6 +44,7 @@
   font-weight: 700;
   font-size: 24px;
   text-align: center;
+  color: hsl(218, 44%, 22%);
 }
 .card__description {
   margin-top: 16px;
