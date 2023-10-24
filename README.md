@@ -44,7 +44,8 @@ I love sharing my work with other people and contributing to what I already find
 ### Useful resources
 
 - [SASS Docs](https://sass-lang.com/) - This is the official documentations of sass. I really liked this pattern and will use it going forward on very simple projects to pratice the basics.
-- [HTML <h1> to <h6> Tags](https://www.w3schools.com/tags/tag_hn.asp) - This documentations provides the direcion to think about wich semantic tags use in header.
+- [HTML <h1> to <h6> Tags - W3](https://www.w3schools.com/tags/tag_hn.asp) - This documentations provides the direcion to think about wich semantic tags use in header.
+- [HTML <h1> to <h6> Tags - Mozilla ](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements) - This documentations provides the direcion to think about wich semantic tags use in header.
 
 
 ## Author
@@ -55,5 +56,5 @@ I love sharing my work with other people and contributing to what I already find
 
 ## Acknowledgments
 
-It's not easy to make a perfect design without figma, with figma it's a little more difficult, but the more our frontend eyes are trained to see details, the more we will be successful when development is easier, in this case, when you have a team, or the design in hand, so congratulations to everyone who had the courage to face this challenge of responsiveness and handling images. About which head tag use, reading the W3 documentation h4 usually represents a font-size 1.5em, the font size described in the style-guide.md, suggest 15px, so I used a h4.
+It's not easy to make a perfect design without figma, with figma it's a little more difficult, but the more our frontend eyes are trained to see details, the more we will be successful when development is easier, in this case, when you have a team, or the design in hand, so congratulations to everyone who had the courage to face this challenge of responsiveness and handling images. About which head tag use, reading the W3 and mozilla documentation notes, "Avoid skipping heading levels: always start with <h1>, then <h2> and so on. Also try to have at least one first-level header on a page" and "Don't use smaller levels to decrease the header font size: use the CSS font-size property."
 
